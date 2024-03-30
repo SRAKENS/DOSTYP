@@ -22,4 +22,4 @@ with zipfile.ZipFile(parses_zip_path, 'w') as zipf:
 def send_parses(message):
     with open(parses_zip_path, 'rb') as file:
         bot.send_document(chat_id, file)
-
+bot.polling()
